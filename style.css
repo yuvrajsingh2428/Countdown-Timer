@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    text-align: center;
+    background-color: #656d74;
+    font-family: 'Poppins', sans-serif;
+}
+/*to change the colour of heading Countdown timer   */
+h1{
+    color: #f5f5f5;
+    font-size: 40px;
+}
+/*to change the alignment and making center to date and time */
+table{
+    margin: auto;
+}
+/*to change the colour of enter date and enter time     */
+th{
+    color: #f5f5f5;
+}
+
+input{
+    font-size: 20px;  /* dd/mm/yy */
+    padding: 5px;   /*to increase the height of dd/mm/yy */
+    border-radius: 5px;
+}
+
+/*to change in buttons calculate reset stop*/
+
+button{
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 10px;
+    font: size 20px; 
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.countdown{
+    display: flex;             /*moves all the child elements in single line(day,hour, seconds) */
+    justify-content: center;   /*moves all the (day,hour, seconds) in center */
+}
+
+.heading{
+    color: #f5f5f5;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.time{
+    background-color: #090909;
+    color: #f5f5f5;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;         /*moving from left to right and giving space bt (0,0,0,0) */
+}
